@@ -6,7 +6,6 @@
   font-size:1.2em;
   line-height: 3em;
   font-weight: bold;
-  text-align: right;
 }
 .header {
     background-color: #F1F1F1;
@@ -34,13 +33,4 @@ flex: 1 0 15em;
   font-size: 1.2em;
   margin-bottom: -15px;
 }
-.left-column, .right-column{
-flex: 1 0 15em;
-  padding: 10px;
-}
-.right{
-  text-align: right;
-}
-.fullwidth{
-  width: 100%;
-}
+
