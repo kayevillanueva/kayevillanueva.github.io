@@ -6,13 +6,14 @@
   font-size:1.2em;
   line-height: 3em;
   font-weight: bold;
+  text-align: left;
 }
-.header {
+header {
     background-color: #F1F1F1;
     text-align: center;
     padding: 20px;
   }
-  .footer {
+footer {
     background-color: #F1F1F1;
     text-align: center;
     padding: 10px;
@@ -27,7 +28,7 @@ flex: 1 0 15em;
   display: inline-block;
 }
 
-.h2{
+h2{
   color: #7ca6bb;
   font-family: 'Playfair Display', serif;
   font-size: 1.2em;
