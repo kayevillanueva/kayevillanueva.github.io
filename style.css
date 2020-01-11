@@ -24,7 +24,7 @@ footer {
   display: inline-block;
 }*/
 
-img{
+.img{
 flex: 1 0 15em;
   padding: 10px;
   display: inline-block;
