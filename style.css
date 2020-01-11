@@ -17,17 +17,17 @@ nav a {
   
 }
 
-nav li{
+/*nav li{
+  display: inline-block;
+}*/
+
+img{
+flex: 1 0 15em;
+  padding: 10px;
   display: inline-block;
 }
-nav a:hover {
-  background-color: #7ca6bb;
-  color: #f7f4e7;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px black;
-}
 
-h1, h2, h3, h4, h5, h6{
+h2{
   color: #7ca6bb;
   font-family: 'Playfair Display', serif;
   font-size: 1.2em;
