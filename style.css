@@ -20,15 +20,6 @@ footer {
     text-align: center;
     padding: 10px;
   }
-/*nav li{
-  display: inline-block;
-}*/
-
-.img{
-flex: 1 0 15em;
-  padding: 10px;
-  display: inline-block;
-}
 
 h2{
   color: #7ca6bb;
