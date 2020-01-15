@@ -7,8 +7,8 @@ main {
   text-align: left;
 }
 header {
-    background-color: #F1F1F1;
-    color: #074361;
+    background-color: rgb(112, 45, 45);
+    color: #55aedb;
     text-align: center;
     padding: 20px;
     width: 100%;
