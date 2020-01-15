@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display&display=swap');
 
-  /* CSS files add styling rules to your content */
-nav {
+main {
   background-color: #f7f4e7;
   font-size:1.2em;
   line-height: 3em;
   font-weight: bold;
   text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
     background-color: #F1F1F1;
