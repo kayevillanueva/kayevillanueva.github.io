@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +9,20 @@
     <meta name= "description" content="This is the homepage for CIT230">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.typekit.net/yuk2qzq.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
+<script>
+
+var lastUpdate = new Date();
+var copyRightYear= new Date();
+window.onload = function(){
+    loadYear();
+    function loadYear(){
+    document.getElementById('copyRightYear').innerHTML=copyRightYear.getFullYear();
+    document.getElementById('currentDate').innerHTML=lastUpdate;
+    }
+}
+</script>
 
 <body>
 <header>
@@ -24,19 +38,17 @@
         <ul> 
             <li>Lesson 02| <a href="#">Design Principles</a> </li> 
             <li>Lesson 03|<a href="#">Weather Site Plan</a></li>
-            <li>Lesson 04-05|<a href="#">Preston Home Page|Code Pen</a></li>
+            <li>Lesson 04-05|<a href="#">Preston Home Page</a>|<a href="#">Code Pen</a></li>
             <li>Lesson 16|<a href="#">Weather Home Page</a></li> 
         </ul> 
     </main>
    
     <footer> <!-- this is the first footer section of content --> 
        
-       <p> &copy; 2019 | Kaye Villanueva | <a href="https://developer.mozilla.org/en-US/"> MDN Documentation Site</a>| BYU-Idaho 
+       <p> &copy; <span id="copyRightYear"></span> | Kaye Villanueva | <a href="https://developer.mozilla.org/en-US/"> MDN Documentation Site</a>| BYU-Idaho 
         Last Updated: <span id="currentdate"></span> </p>
 
       </footer>
-      <script src="js/currentdate.js">
-  
-      </script>
+      <script src="script.js"></script>
     </body>
 </html> 
