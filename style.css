@@ -33,5 +33,6 @@ h2{
   margin: auto;
   position: relative;
   display: block;
+  border: 1px solid red;
 }
 
