@@ -9,31 +9,21 @@
     <meta name= "description" content="This is the homepage for CIT230">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Merienda+One|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel+Decorative|DM+Serif+Text|Magra|Roboto|Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Baskervville|Montserrat|Oswald|Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-<script>
 
-var lastUpdate = new Date();
-var copyRightYear= new Date();
-window.onload = function(){
-    loadYear();
-    function loadYear(){
-    document.getElementById('copyRightYear').innerHTML=copyRightYear.getFullYear();
-    document.getElementById('currentDate').innerHTML=lastUpdate;
-    }
-}
-</script>
 
 
 <header>
     <h1>
-        KAYE VILLANUEVA
+        Kaye Villanueva
     </h1>  
 </header>
 
-    <img src= "myimage.jpg" style="width:300px; height:350px;" alt="My fiance and me" class="imgMe">
+    <img src= "/images/myimage.jpg" style="width:300px; height:350px;" alt="My fiance and me" class="imgMe">
     <h2>
         CIT 230:Assignment Portal
     </h2>
@@ -52,7 +42,7 @@ window.onload = function(){
         Last Updated: <span id="currentDate"></span> </p>
 
       </footer>
-      <script src="script.js"></script>
+      <script src="/scripts/currentDate.js"></script>
     </body>
 </html> 
 
