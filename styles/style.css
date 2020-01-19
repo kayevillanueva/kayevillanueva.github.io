@@ -12,6 +12,7 @@ main {
 }
 #designMain{
   justify-content: center;
+  justify-items: center;
 }
 header {
     background-color: rgb(30, 117, 69);
