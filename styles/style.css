@@ -9,7 +9,9 @@ main {
   margin-right: 40px;
   display: grid;
   font-family: 'Poppins', sans-serif;
-
+}
+#designMain{
+  justify-content: center;
 }
 header {
     background-color: rgb(30, 117, 69);
@@ -72,4 +74,7 @@ main p{
   background-color: mistyrose;
   padding: 20px;
   line-height: 1em;
+  width:90%;
+  text-align: center;
+
 }
