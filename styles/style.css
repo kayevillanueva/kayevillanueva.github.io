@@ -67,5 +67,9 @@ body{
 }
 
 main p{
-
+  font-family: 'Magra', cursive;
+  justify-content: center;
+  background-color: mistyrose;
+  padding: 20px;
+  line-height: 1em;
 }
