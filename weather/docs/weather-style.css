@@ -9,8 +9,8 @@ main {
     display: grid;
     font-family: 'Poppins', sans-serif;
     justify-content: center;
-   
-  }
+    }
+
 
   header {
       background-color:#037584;
@@ -25,6 +25,10 @@ main {
         display: flex;
         flex-direction: row;
         background-color:#037584;
+    }
+    .logo{
+        width: 100px;
+        height: auto;
     }
 
   footer {
