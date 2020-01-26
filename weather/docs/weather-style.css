@@ -1,0 +1,44 @@
+main {
+    background-color: #dcd0c0;
+    font-size:1.2em;
+    line-height: 3em;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+   
+  }
+
+  header {
+      background-color:#037584;
+      color: #f7f4e7;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+      display: block;
+     
+    }
+    .weatherHeader{
+        display: flex;
+        flex-direction: row;
+        background-color:#037584;
+    }
+
+  footer {
+      background-color: #F1F1F1;
+      text-align: center;
+      padding: 10px;
+    }
+  h1{
+    font-family: 'DM Serif Text', serif;
+    font-size: 3.0em;
+  }
+  h2{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: -15px;
+    font-family: 'Oswald', sans-serif;
+  }
