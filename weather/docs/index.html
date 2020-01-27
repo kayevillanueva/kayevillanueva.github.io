@@ -5,7 +5,10 @@
     <meta name= "description" content="This is the weather site plan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/W20/css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="weather-style.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/large-screen.css"/>
+
     <link href="https://fonts.googleapis.com/css?family=Anton|Baskervville|Montserrat|DM+Serif+Text|Oswald|Poppins&display=swap" rel="stylesheet">
     <title>Your Weather House</title>   
 </head>
@@ -17,10 +20,7 @@
                 The Weather House
             </h1>
         </div>
-
-    </header>
-    <main>
-         <div id="weatherMain">
+        <div id="weatherNav">
             <nav>
                 <ul>
                     <li><a href="audience.html">Our Audience</a></li>
@@ -28,19 +28,45 @@
                     <li><a href="typography.html">Typography</a></li>
                 </ul>
             </nav>
+          </div>
+          <button onclick="window.location.href = 'https://kayevillanueva.github.io/';">Main Menu</button>
+    </header>
+    <main>
+
+        <div id="wrapper1">        
+            <h2>
+                Site Purpose
+            </h2>
+            <p>
+                Our purpose is to provide weather, water, and climate data, forecasts and warnings for the protection of life and property and enhancement of the national economy.
+            </p>
+            <p>
+                It means communities across the country are ready, responsive and resilient to weather, water and climate threats. 
+                Community decision makers have access to information that is understandable and prepares them to take action to safeguard lives and livelihoods ahead of the onset of dangerous conditions. 
+            </p>
         </div>
-        <h2>
-            Our Site Purpose
-        </h2>
-        <p>
-            Our purpose is to provide weather, water, and climate data, forecasts and warnings for the protection of life and property and enhancement of the national economy.
-        </p>
-        <p>
-            It means communities across the country are ready, responsive and resilient to weather, water and climate threats. 
-            Community decision makers have access to information that is understandable and prepares them to take action to safeguard lives and livelihoods ahead of the onset of dangerous conditions. 
-        </p>
+        <div id="wrapper2">
+            <h2>
+                Site Domain
+            </h2>
+            <p>
+                www.weatherhouseee.com
+            </p>
+        </div>
+        <div id="wrapper3">
+            <h2>
+                Our logo
+            </h2>
+            <p>
+                As seen on the top left corner. 
+            </p>
+        </div>
+
     </main>           
-    <footer>
-    </footer> 
+    <footer> <!-- this is the first footer section of content -->  
+        <p> &copy; <span id="copyRightYear"></span> | Kaye Villanueva | <a href="https://developer.mozilla.org/en-US/"> MDN Documentation Site</a>| BYU-Idaho 
+         Last Updated: <span id="currentDate"></span> </p>
+    </footer>
+    <script src="/scripts/currentDate.js"></script>
 </body>
 </html>

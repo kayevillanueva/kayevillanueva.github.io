@@ -5,7 +5,9 @@
     <meta name= "description" content="This is the weather site audience">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/W20/css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="weather-style.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/large-screen.css"/>
     <link href="https://fonts.googleapis.com/css?family=Anton|Baskervville|Montserrat|DM+Serif+Text|Oswald|Poppins&display=swap" rel="stylesheet">
     <title>Our Audience</title>   
 </head>
@@ -17,35 +19,47 @@
                 Our Audience
             </h1>
         </div>
+        <div id="weatherNav">
+            <nav>
+                <ul>
+                    <li><a href="audience.html">Our Audience</a></li>
+                    <li><a href="color.html">Color</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                </ul>
+            </nav>
+          </div>
     </header>
-    <main id="audienceMain">
-        <nav>
-            <ul>
-                <li><a href="audience.html">Our Audience</a></li>
-                <li><a href="color.html">Color</a></li>
-                <li><a href="typography.html">Typography</a></li>
-            </ul>
-        </nav>
-        <h2>
-            Our Target Audience
-        </h2>
-        <p>
-            It can be used by anyone who is looking to find out about the weather. It can be used by anyone who has the mobile phone weather app. The people who mainly use this service are people who are booking holidays to check the weather in a different country. It is also used by anyone who wants to go on a fun day out.
+    <main>
+        <div id="wrapperAudience1">
+            <h2>
+                Our Target Audience
+            </h2>
+            <p>
+                It can be used by anyone who is looking to find out about the weather. It can be used by anyone who has the mobile phone weather app. The people who mainly use this service are people who are booking holidays to check the weather in a different country. It is also used by anyone who wants to go on a fun day out.
 
-        </p>
-        <h2>
-            Personas
-        </h2>
-        <p>
-            Persona 1 – George: George is a 50 year old father of a family of five. They are planning a trip to go to the Bahamas. He wanted to check the weather on the following couple weeks to see if there's any hurricane coming up. That way, they could decide what the perfect day is to take days off from work.
-            Persona 2 – Georgina: Georgina is a 29 year old auditor for one of the Big 4 Accounting Firms. 
-        </p>
+            </p>
+        </div>
+        <div id="wrapperAudience2">
+            <h2>
+                Personas
+            </h2>
+            <p>
+                Persona 1 – George: George is a 50 year old father of a family of five. They are planning a trip to go to the Bahamas. He wanted to check the weather on the following couple weeks to see if there's any hurricane coming up. That way, they could decide what the perfect day is to take days off from work.  
+            </p>            
+            <p>
+                Persona 2 – Georgina: Georgina is a 29 year old auditor for one of the Big 4 Accounting Firms. So, she travels a lot for work. She checks her mobile weather app every time she flies out to audit some client companies out of state. 
+            </p>
+    </div>
         <h2>
             Scenarios
+
         </h2>
                
     </main>
-    <footer>
-    </footer> 
+    <footer> <!-- this is the first footer section of content -->  
+        <p> &copy; <span id="copyRightYear"></span> | Kaye Villanueva | <a href="https://developer.mozilla.org/en-US/"> MDN Documentation Site</a>| BYU-Idaho 
+         Last Updated: <span id="currentDate"></span> </p>
+    </footer>
+    <script src="/scripts/currentDate.js"></script>
 </body>
 </html>
