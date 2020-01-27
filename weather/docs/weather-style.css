@@ -1,5 +1,5 @@
 main {
-    background-color: #dcd0c0;
+    background-color: #e6dcd1;
     font-size:1.2em;
     line-height: 3em;
     font-weight: bold;
@@ -30,6 +30,12 @@ main {
         width: 100px;
         height: auto;
     }
+    #weatherMain{
+        display: flex;
+        flex-direction: column;
+        background-color: goldenrod;
+        font-family: 'Poppins', sans-serif;
+     }
 
   footer {
       background-color: #F1F1F1;
@@ -46,3 +52,10 @@ main {
     margin-bottom: -15px;
     font-family: 'Oswald', sans-serif;
   }
+
+    p{
+        font-family: 'Montserrat', cursive;
+        justify-content: center;
+        line-height: 1.25em;
+      }
+ 
