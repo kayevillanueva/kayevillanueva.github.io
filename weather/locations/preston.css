@@ -1,0 +1,82 @@
+main {
+    background-color: #e6dcd1;
+    font-size:1.2em;
+    line-height: 3em;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    }
+
+  header {
+      background-color:#037584;
+      color: #f7f4e7;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+      display: inline-block;
+     
+    }
+    .weatherHeader{
+        display: flex;
+        flex-direction: row;
+        background-color:#037584;
+        align-items: center;
+    }
+    #logo{
+        width: 100px;
+        height: auto;
+    }
+    .inline-logo {
+        display: inline-block;
+        margin-left: .5em;
+        padding-bottom: 15px;
+    }
+    nav ul {
+        display: flex;
+        padding: 0;
+        list-style: none;
+        justify-content: space-evenly;   
+    }
+    
+    nav ul li {
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;;
+        font-size: 1em;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+    }
+    
+
+    
+    .nav-link {
+        color: inherit;
+    }
+    .options{
+        list-style: none;
+      }
+    .options li{
+        display: inline-block;
+        padding: 0px 20px;
+      }
+      .locationtitle {
+        background-color: #007849;
+        color: white;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+      #currentConditions, #temps, #conditions, #precipitation{
+        align-self: center;
+        text-align: center;
+        background-color: #E8CB7D;
+        justify-content: center;
+        padding: 5px;
+        margin: 10px;
+    }

@@ -1,0 +1,22 @@
+    @media only screen and (min-width: 650px) {
+        nav {
+        display: flex;
+      flex-direction: row;
+        }
+      nav li {
+            display: block; 
+      }	
+      nav li a {
+            text-align: center;
+        }
+        nav li:first-child {
+            display: none;
+      }
+      section{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+      }
+      section div{
+        min-height: 16em;
+      }
+    }
