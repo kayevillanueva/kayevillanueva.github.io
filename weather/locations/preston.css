@@ -37,11 +37,13 @@ html {
     #logo{
         width: 100px;
         height: auto;
+        align-self: flex-start;
     }
     .inline-logo {
         display: inline-block;
         margin-left: .5em;
         padding-bottom: 15px;
+        text-align: left;
     }
  
     #nav-mobile-links{
@@ -51,6 +53,7 @@ html {
     #nav-mobile-links ul{
         display: block;
         text-align: center;
+        list-style: none;
     }
     #nav-mobile{
         border-top: solid 1.5px black;
