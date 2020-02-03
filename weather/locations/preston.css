@@ -90,8 +90,10 @@ html {
         padding: 5px;
         margin: 10px;
     }
-    footer{
+
+    footer{ 
         text-align: center;
-        width: 944px;
+        align-self: center;
     }
+
 
