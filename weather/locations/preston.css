@@ -25,6 +25,9 @@ html {
       width: 100%;
       display: inline-block;     
     }
+    #logotagline{
+        display: flex;        
+    }
     #weatherNav{
         display:none;
     }
