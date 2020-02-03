@@ -1,4 +1,11 @@
-main {
+html {
+    box-sizing: border-box;
+   }
+   
+   *, *::before, *::after{
+    box-sizing: inherit;
+   }
+   main {
     background-color: #e6dcd1;
     font-size:1.2em;
     line-height: 3em;
@@ -16,8 +23,10 @@ main {
       text-align: center;
       padding: 20px;
       width: 100%;
-      display: inline-block;
-     
+      display: inline-block;     
+    }
+    #weatherNav{
+        display:none;
     }
     .weatherHeader{
         display: flex;
@@ -34,32 +43,27 @@ main {
         margin-left: .5em;
         padding-bottom: 15px;
     }
-    nav ul {
-        display: flex;
-        padding: 0;
-        list-style: none;
-        justify-content: space-evenly;   
+ 
+    #nav-mobile-links{
+        display: none;
     }
-    
-    nav ul li {
-        text-decoration: none;
-        font-family: 'Poppins', sans-serif;;
-        font-size: 1em;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-    }
-    
 
-    
-    .nav-link {
-        color: inherit;
+    #nav-mobile-links ul{
+        display: block;
+        text-align: center;
+    }
+    #nav-mobile{
+        border-top: solid 1.5px black;
+        width: 100%;
+    }
+    #nav-mobile li{
+        list-style: none;
+        text-align: center;
     }
     .options{
         list-style: none;
       }
-    .options li{
+    .options li{ 
         display: inline-block;
         padding: 0px 20px;
       }
@@ -80,3 +84,7 @@ main {
         padding: 5px;
         margin: 10px;
     }
+    footer{
+        text-align: center;
+    }
+

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="/W20/css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="preston.css"/>
-    <link rel="stylesheet" type="text/css" href="/weather/large-screen.css"/>
+    <link rel="stylesheet" type="text/css" href="preston.css" >
+    <link rel="stylesheet" type="text/css" href="pres-large-screen.css" media="(min-width: 1300px)">
 
     <link href="https://fonts.googleapis.com/css?family=Anton|Baskervville|Montserrat|DM+Serif+Text|Oswald|Poppins&display=swap" rel="stylesheet">
     <title>Your Weather House</title>   
@@ -23,18 +23,19 @@
                 </h1>
                 <p id="tagline">Wherever you go.</p>
             </div>
-            <nav id="weatherNav" class="hidden">
+            <nav id="weatherNav">
                 <ul class="options">
-                <li id="home-link"><a class="nav-link" href="#"></a>Home</li>
-                <li id="preston-link"><a class="nav-link" href="#"></a>Preston</li>
-                <li id="soda-link"><a class="nav-link" href="#"></a>Soda Springs</li>
-                <li><a id="icon" class="nav-link" href="javascript:void(0);" onclick="responsiveMenu()">&#9776; Menu</a></li>
-                
+                  <li id="home-link"><a class="nav-link" href="preston.html">Home</a></li>
+                  <li id="preston-link"><a class="nav-link" href="#">Preston</a></li>
+                  <li id="soda-link"><a class="nav-link" href="#">Soda Springs</a></li>
+                 
                 </ul>
-            </nav>
-            <button onclick="window.location.href = 'https://kayevillanueva.github.io/';">Main Menu</button>
+              </nav>
 
     </header>
+
+   
+    <button onclick="window.location.href = 'https://kayevillanueva.github.io/';">Main Menu</button>
 
         <main>
           
@@ -63,10 +64,20 @@
        </main>
 
     
-    <footer id="footer" class="small-footer">  
+    <footer id="footer">  
         <p> &copy; <span id="copyRightYear"></span> | Kaye Villanueva | <a href="https://developer.mozilla.org/en-US/"> MDN Documentation Site</a>| BYU-Idaho 
          Last Updated: <span id="currentDate"></span> </p>
     </footer>
+    <nav id="nav-mobile-links">
+        <ul class="options-mobile">
+          <li id="home-link"><a href="preston.html">Home</a></li>
+          <li id="preston-link"><a href="#">Preston</a></li>
+          <li id="soda-link"><a href="#">Soda Springs</a></li>        
+        </ul>
+      </nav>
+    <nav id="nav-mobile">
+        <li><id="icon" onclick="responsiveMenu()">&#9776; Menu</li>
+   </nav>
     <script src="/weather/locations/responsiveMenu.js"></script>
     <script src="/scripts/currentDate.js"></script>
 

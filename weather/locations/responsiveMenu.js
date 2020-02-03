@@ -1,11 +1,13 @@
 function responsiveMenu() {
-    var x = document.getElementById("weatherNav");
-    var y = document.getElementById("footer");
-    if (x.className === "hidden") {
-      x.className = "shown";
-      y.className = "large-footer";
+ 
+    // document.getElementById("nav-mobile-links").style.display = "none";
+
+    if (document.getElementById("nav-mobile-links").style.display == "none") {
+        document.getElementById("nav-mobile-links").style.display = "block";
     } else {
-      x.className = "hidden";
-      y.className = "small-footer";
+        document.getElementById("nav-mobile-links").style.display = "none";
     }
-  } 
+
+}
+   
+ 

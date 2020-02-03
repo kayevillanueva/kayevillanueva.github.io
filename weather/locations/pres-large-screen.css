@@ -3,26 +3,34 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
       }
+      #weatherNav{
+        display:inline;
+    }
       nav ul {
         display: flex;
         padding: 0;
         list-style: none;
         justify-content: space-evenly;   
     }
-    
+
     nav ul li {
         text-decoration: none;
         font-family: 'Poppins', sans-serif;;
         font-size: 1em;
     }
-    
+
     nav ul li a {
         text-decoration: none;
     }
-    
-
-    
     .nav-link {
         color: inherit;
     }
-}
+
+    #hiddennav-mobile{
+        display:none;
+    }
+    #nav-mobile{
+        display:none;
+    }
+
+} 
