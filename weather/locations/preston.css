@@ -94,6 +94,7 @@ html {
     footer{ 
         width:944px;
         margin:auto;
+        justify-self: center;
         text-align: center;
         align-self: center;
     }
