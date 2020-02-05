@@ -92,6 +92,8 @@ html {
     }
 
     footer{ 
+        width:944px;
+        margin:auto;
         text-align: center;
         align-self: center;
     }
