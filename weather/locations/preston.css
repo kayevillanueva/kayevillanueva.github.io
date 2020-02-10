@@ -83,6 +83,8 @@ html {
         align-self: center;
     }
       #currentConditions, #temps, #conditions, #precipitation{
+        display:flex;
+        flex-direction: column;
         align-self: center;
         text-align: center;
         background-color: #E8CB7D;
@@ -90,7 +92,12 @@ html {
         padding: 5px;
         margin: 10px;
     }
-
+    .tile{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     footer{ 
         width:944px;
         margin:auto;
@@ -98,5 +105,107 @@ html {
         text-align: center;
         align-self: center;
     }
+    #temps{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-
+    .component{
+        width: 200px;
+        height: 200px;
+        background-color: darkgray;
+        position: relative;
+        border-radius: 90%;
+        display: flex;
+        justify-content: center;
+    }
+        
+    .inner{
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 90%;
+        align-self: center;
+    }
+    
+    .centersymbol {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+    }
+    
+    .measure {
+      list-style-type: none;
+      padding: 0;
+      position: absolute;
+      font-size: 0.90em;
+    }
+    
+    .n1 {
+    position: absolute;
+      top: -25px;
+      left: 40px;
+    }
+    
+    .n2 {
+        position: absolute;
+      top: 10px;
+      left: 70px;
+    }
+    
+    .n3 {
+        position: absolute;
+      top: 45px;
+      left: 80px;
+    }
+    
+    .n4 {
+      position: absolute;
+      top: 85px;
+      left: 75px;
+    }
+    
+    .n5 {
+      position: absolute;
+      top:125px;
+      left: 50px;
+    }
+    
+    .n6 {
+      position: absolute;
+      top: 140px;
+      left: 0px;
+    }
+    
+    .n7 {
+        position: absolute;
+        top:125px;
+        left: -55px;
+    }
+    
+    .n8 {
+        position: absolute;
+        top: 85px;
+        left: -85px;
+    }
+    
+    .n9 {
+        position: absolute;
+      top: 45px;
+      left: -90px;
+    }
+    
+    .n10 {
+        position: absolute;
+      top: 10px;
+      left: -80px;
+    }
+    
+    
+    
+    
