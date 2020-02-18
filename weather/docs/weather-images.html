@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+    
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Kaye Villanueva">
+        <link rel="stylesheet" type="text/css" href="weather-images.css"/>        
+        <title>Progressive Loading of Images</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>My Pictures</h1>
+        </header>
+
+        <main>
+        <picture>
+            <img src="/weather/images/placeholder.jpg" data-src="/weather/images/clear.jpg" alt="clear">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.jpg" data-src="/weather/images/clouds.jpg" alt="clouds">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.jpg" data-src="/weather/images/fog.jpg" alt="fog">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.jpg" data-src="/weather/images/rain.jpg" alt="rain">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.jpg" data-src="/weather/images/snow.jpg" alt="snow">
+        </picture>
+        <script src="/scripts/weather-images.js"></script>
+        </main>
+
+        <footer>
+        </footer>
+    </body>
+
+</html>
