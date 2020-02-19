@@ -16,19 +16,24 @@
         </header>
 
         <main>
+            <picture>
+                <source media="(min-width:650px)" srcset="/weather/images/rainnormal.jpg">
+                <img src="/weather/images/placeholder.jpg" data-src="/weather/images/rain.jpg" alt="rain">
+            </picture>
         <picture>
+            <source media="(min-width:650px)" srcset="/weather/images/clearnormal.jpg">
             <img src="/weather/images/placeholder.jpg" data-src="/weather/images/clear.jpg" alt="clear">
         </picture>
         <picture>
+            <source media="(min-width:650px)" srcset="/weather/images/cloudsnormal.jpg">
             <img src="/weather/images/placeholder.jpg" data-src="/weather/images/clouds.jpg" alt="clouds">
         </picture>
         <picture>
+            <source media="(min-width:650px)" srcset="/weather/images/fognormal.jpg">
             <img src="/weather/images/placeholder.jpg" data-src="/weather/images/fog.jpg" alt="fog">
         </picture>
         <picture>
-            <img src="/weather/images/placeholder.jpg" data-src="/weather/images/rain.jpg" alt="rain">
-        </picture>
-        <picture>
+            <source media="(min-width:650px)" srcset="/weather/images/snownormal.jpg">
             <img src="/weather/images/placeholder.jpg" data-src="/weather/images/snow.jpg" alt="snow">
         </picture>
         <script src="/scripts/weather-images.js"></script>
