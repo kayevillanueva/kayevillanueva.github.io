@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="pres-large-screen.css" media="(min-width: 1300px)">
 
     <link href="https://fonts.googleapis.com/css?family=Anton|Baskervville|Montserrat|DM+Serif+Text|Oswald|Poppins&display=swap" rel="stylesheet">
-    <title>Your Weather House</title>   
+    <title>Your Weather House</title> 
+    <link rel="shortcut icon" type="image/jpg" href="../images/weather-icon.ico"/>  
 </head>
 <body>
     <header>
@@ -47,9 +48,18 @@
                 <div id="curWeather">
                 <div id="prestoncontent">
                 <div id="currentConditions">
-                    <h3>Current Conditions</h3>
-                    <p id="current">51°F</p>
+                    <div id="currentCondition-grid">
+                         <p> 58°</p>
+                        
+                         <div id=currentmiddle>
+                          <h3>Current Conditions</h3>
+                          <p id="current">51°F</p>
+                        </div>
+                      
+                        <p> 34°</p>
+                      </div>
                     <p id="feelslike">Feels like: <span id="feelTemp"></span>°F</p>
+                
                     <p id="windspeed">Wind: 4.8mph</p>
                 </div>
                 

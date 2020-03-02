@@ -6,7 +6,8 @@ html {
     box-sizing: inherit;
    }
    main {
-    background-image: url("../images/rain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size:1.2em;
     line-height: 3em;
     font-weight: bold;
@@ -90,8 +91,12 @@ html {
         text-align: center;
         background-color: #E8CB7D;
         justify-content: center;
-        padding: 20px;
+        padding: 50px;
         margin: 10px;
+    }
+    #currentCondition-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; 
     }
     .tile{
         display:flex;
@@ -179,8 +184,8 @@ html {
     
     .n5 {
       position: absolute;
-      top:125px;
-      left: 50px;
+      top:140px;
+      left: 40px;
     }
     
     .n6 {
@@ -217,7 +222,7 @@ html {
       position: absolute;
       font-size: 1.25em;
       font-family: 'Francois One', sans-serif;
-      color: blueviolet
+      text-decoration-color: rgb(30, 83, 10);
     }
     .o1 {
       position: absolute;
@@ -227,61 +232,62 @@ html {
     
     .o2 {
       position: absolute;
-      top: -35px;
+      top: -40px;
       left: 160px;
     }
     
     .o3 {
       position: absolute;
-      top: 15px;
-      left: 200px;
+      top: 0px;
+      left: 195px;
     }
     
     .o4 {
       position: absolute;
-      top: 80px;
-      left: 200px;
+      top: 45px;
+      left: 205px;
     }
     
     .o5 {
       position: absolute;
-      top: 140px;
-      left: 170px;
+      top: 90px;
+      left: 200px;
     }
     
     .o6 {
       position: absolute;
-      top: 160px;
-      left: 90px;
+      top: 135px;
+      left: 175px;
     }
     
     .o7 {
+      position: absolute;
+      top: 162px;
+      left: 90px;
+    }
+    
+    .o8 {
       position: absolute;
       top: 140px;
       left: 10px;
     }
     
-    .o8 {
-      position: absolute;
-      top: 80px;
-      left: -20px;
-    }
-    
     .o9 {
       position: absolute;
-      top: 15px;
-      left: -20px;
+      top: 90px;
+      left: -25px;
     }
     
     .o10 {
       position: absolute;
-      top: -2px;
-      left: -20px;
+      top: 45px;
+      left: -30px;
     }
     
     .o11 {
-      margin-top: -75px;
-      margin-left: 5px;
+      position: absolute;
+      top: -2px;
+      left: -15px;
     }
   
     .mark {
@@ -291,6 +297,31 @@ html {
       background-color: #DD7044;
       color: transparent;
   }
+  #curWeather {
+    background-size: cover;
+    margin-top: 5px;
+    padding: 100px;
+}
+
+.clear {
+    background-image: url("/weather/images/clear.jpg");
+}
+
+.clouds {
+    background-image: url("/weather/images/clouds.jpg");
+}
+   
+.fog {
+    background-image: url("/weather/images/fog.jpg");
+}
+
+.rain {
+    background-image: url("/weather/images/rain.jpg");
+}
+
+.snow {
+   background-image: url("/weather/images/snow.jpg");
+}
 
     
     

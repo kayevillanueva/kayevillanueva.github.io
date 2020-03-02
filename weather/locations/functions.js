@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let hour = "5";
     timeBall(hour);
     // Implement background weather image
-    let condition = "rain";
+    let condition = "snow";
     condition.toLowerCase();
     changeSummaryImage(condition);
 })
@@ -58,6 +58,7 @@ function timeBall(hour){
 // display background image
 function changeSummaryImage(condition){
     let container = document.querySelector("#curWeather")
+   // let container = document.querySelector("main")
     console.log(condition);
     container.classList.add(condition)
 }
